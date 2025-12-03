@@ -39,10 +39,10 @@ pip install -r requirements.txt
 
 ## Install Segment Anything Model 2 (SAM2)
 This project relies on Facebook Research's SAM2. You must clone and install it manually:
-# Clone SAM2 inside the project
+## Clone SAM2 inside the project
 git clone [https://github.com/facebookresearch/sam2.git](https://github.com/facebookresearch/sam2.git)
 
-# Enter the directory and install in editable mode
+## Enter the directory and install in editable mode
 cd sam2
 pip install -e .
 cd ..
@@ -50,6 +50,7 @@ cd ..
 
 ## Data Preparation
 Please organize your dataset (e.g., MoNuSeg) as follows. You can configure the exact paths in configs/defaults.py.
+```text
 monuseg_data/
 ├── kmms_training/
 │   ├── images/   # .tif or .png images
@@ -57,3 +58,4 @@ monuseg_data/
 └── kmms_test/
     ├── images/
     └── masks/
+```
