@@ -1,7 +1,7 @@
 # CellSamUnet: A Dual-Stream Feature Extraction Network for Cell Image Segmentation
 
 ## Introduction
-This repository contains the official implementation of **CellSamUnet**, a novel cell image segmentation method that employs a dual-stream feature extraction network. By fusing the hierarchical features from the **Segment Anything Model 2 (SAM2)** image encoder with a traditional **U-Net** encoder, the architecture effectively captures both global semantic dependencies and fine-grained local details. Experimental results on the DynamicNuclearNet and MoNuSeg datasets demonstrate that CellSamUnet achieves superior segmentation performance compared to state-of-the-art baselines.
+This repository contains the implementation of CellSamUnet, a cell image segmentation method that employs a dual-stream feature extraction network.
 
 ## Training on Datasets:
 !gdown --id 1lVVfq_NRv-8ts8uGwzJRgqj6_RMpCnyB -O monuseg_train.zip
